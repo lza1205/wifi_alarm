@@ -1,0 +1,6 @@
+---- SIM900A_CLEAN_RX Matches (5 in 3 files) ----
+Back_task.c (e:\产品（网络报警器）\代码\stm32\freertos_stm32_6.3\task):41:      SIM900A_CLEAN_RX();                     //清除接收缓冲区
+Sim900a.c (e:\产品（网络报警器）\代码\stm32\freertos_stm32_6.3\driver\sim900a):32:    SIM900A_CLEAN_RX();                 //清空了接收缓冲区数据
+Sim900a.c (e:\产品（网络报警器）\代码\stm32\freertos_stm32_6.3\driver\sim900a):154:    SIM900A_CLEAN_RX();                 //清空了接收缓冲区数据
+Sim900a.c (e:\产品（网络报警器）\代码\stm32\freertos_stm32_6.3\driver\sim900a):274:    SIM900A_CLEAN_RX();                 //清空了接收缓冲区数据
+Sim900a.h (e:\产品（网络报警器）\代码\stm32\freertos_stm32_6.3\driver\sim900a):50:#define     SIM900A_CLEAN_RX()                  clean_rebuff()

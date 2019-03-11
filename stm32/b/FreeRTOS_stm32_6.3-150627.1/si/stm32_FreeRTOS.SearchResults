@@ -1,0 +1,12 @@
+---- rebuff Matches (11 in 4 files) ----
+Air_FreeRTOS.htm (e:\产品（网络报警器）\代码\stm32\freertos_stm32_6.3\out):1751:<P><STRONG><a name="[1df]"></a>get_rebuff</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, sys_uart.o(.text), UNUSED)
+Air_FreeRTOS.htm (e:\产品（网络报警器）\代码\stm32\freertos_stm32_6.3\out):1753:<P><STRONG><a name="[1e0]"></a>clean_rebuff</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, sys_uart.o(.text), UNUSED)
+Back_task.c (e:\产品（网络报警器）\代码\stm32\freertos_stm32_6.3\task):34:    rebuff = sim900a_waitask(0);
+Back_task.c (e:\产品（网络报警器）\代码\stm32\freertos_stm32_6.3\task):36:    if(strstr(rebuff,"OK") != NULL)           //响应OK，表示模块正常接收到命令
+Back_task.c (e:\产品（网络报警器）\代码\stm32\freertos_stm32_6.3\task):40:      rebuff = sim900a_waitask(0);            //重新等待消息
+Back_task.c (e:\产品（网络报警器）\代码\stm32\freertos_stm32_6.3\task):42:      if(strstr(rebuff,"NO CARRIER") != NULL) //响应NO CARRIER,通话结束
+Back_task.c (e:\产品（网络报警器）\代码\stm32\freertos_stm32_6.3\task):46:      else if(strstr(rebuff,"NO ANSWER") != NULL)   //响应NO ANSWER，无人接听
+Sim900a.h (e:\产品（网络报警器）\代码\stm32\freertos_stm32_6.3\driver\sim900a):28:#define     SIM900A_RX(len)                 ((char *)get_rebuff(&(len)))  //获取串口接收到的数据长度
+Sim900a.h (e:\产品（网络报警器）\代码\stm32\freertos_stm32_6.3\driver\sim900a):50:#define     SIM900A_CLEAN_RX()                  clean_rebuff()
+Sys_uart.c (e:\产品（网络报警器）\代码\stm32\freertos_stm32_6.3\bsp\uart):268:char *get_rebuff(uint8_t *len)
+Sys_uart.c (e:\产品（网络报警器）\代码\stm32\freertos_stm32_6.3\bsp\uart):274:void clean_rebuff(void)

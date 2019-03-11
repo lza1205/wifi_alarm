@@ -1,0 +1,10 @@
+..\out\port.o: ..\FreeRTOS\portable\port.c
+..\out\port.o: ..\FreeRTOS\include\FreeRTOS.h
+..\out\port.o: F:\DAN_PIAN_JI\ARM\mdk_4.54\ARM\RV31\Inc\stddef.h
+..\out\port.o: ..\FreeRTOS\include\projdefs.h
+..\out\port.o: ..\FreeRTOS\include\FreeRTOSConfig.h
+..\out\port.o: ..\FreeRTOS\include\portable.h
+..\out\port.o: ..\FreeRTOS\portable\portmacro.h
+..\out\port.o: ..\FreeRTOS\include\mpu_wrappers.h
+..\out\port.o: ..\FreeRTOS\include\task.h
+..\out\port.o: ..\FreeRTOS\include\list.h

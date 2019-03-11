@@ -1,0 +1,13 @@
+..\out\queue.o: ..\FreeRTOS\queue.c
+..\out\queue.o: F:\DAN_PIAN_JI\ARM\mdk_4.54\ARM\RV31\Inc\stdlib.h
+..\out\queue.o: F:\DAN_PIAN_JI\ARM\mdk_4.54\ARM\RV31\Inc\string.h
+..\out\queue.o: ..\FreeRTOS\include\FreeRTOS.h
+..\out\queue.o: F:\DAN_PIAN_JI\ARM\mdk_4.54\ARM\RV31\Inc\stddef.h
+..\out\queue.o: ..\FreeRTOS\include\projdefs.h
+..\out\queue.o: ..\FreeRTOS\include\FreeRTOSConfig.h
+..\out\queue.o: ..\FreeRTOS\include\portable.h
+..\out\queue.o: ..\FreeRTOS\portable\portmacro.h
+..\out\queue.o: ..\FreeRTOS\include\mpu_wrappers.h
+..\out\queue.o: ..\FreeRTOS\include\task.h
+..\out\queue.o: ..\FreeRTOS\include\list.h
+..\out\queue.o: ..\FreeRTOS\include\croutine.h

@@ -1,0 +1,61 @@
+*** Creating Trace Output File 'Air_FreeRTOS.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"core_cm3.o"'
+### List of Objects: adding '".\startup_stm32f10x_hd.o"'
+### List of Objects: adding '"croutine.o"'
+### List of Objects: adding '"list.o"'
+### List of Objects: adding '"queue.o"'
+### List of Objects: adding '"tasks.o"'
+### List of Objects: adding '"timers.o"'
+### List of Objects: adding '"heap_2.o"'
+### List of Objects: adding '"port.o"'
+### List of Objects: adding '"misc.o"'
+### List of Objects: adding '"stm32f10x_adc.o"'
+### List of Objects: adding '"stm32f10x_bkp.o"'
+### List of Objects: adding '"stm32f10x_can.o"'
+### List of Objects: adding '"stm32f10x_cec.o"'
+### List of Objects: adding '"stm32f10x_crc.o"'
+### List of Objects: adding '"stm32f10x_dac.o"'
+### List of Objects: adding '"stm32f10x_dbgmcu.o"'
+### List of Objects: adding '"stm32f10x_dma.o"'
+### List of Objects: adding '"stm32f10x_exti.o"'
+### List of Objects: adding '"stm32f10x_flash.o"'
+### List of Objects: adding '"stm32f10x_fsmc.o"'
+### List of Objects: adding '"stm32f10x_gpio.o"'
+### List of Objects: adding '"stm32f10x_i2c.o"'
+### List of Objects: adding '"stm32f10x_iwdg.o"'
+### List of Objects: adding '"stm32f10x_pwr.o"'
+### List of Objects: adding '"stm32f10x_rcc.o"'
+### List of Objects: adding '"stm32f10x_rtc.o"'
+### List of Objects: adding '"stm32f10x_sdio.o"'
+### List of Objects: adding '"stm32f10x_spi.o"'
+### List of Objects: adding '"stm32f10x_tim.o"'
+### List of Objects: adding '"stm32f10x_usart.o"'
+### List of Objects: adding '"stm32f10x_wwdg.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"stm32f10x_it.o"'
+### List of Objects: adding '"bsp.o"'
+### List of Objects: adding '"delay.o"'
+### List of Objects: adding '"g7185.o"'
+### List of Objects: adding '"sys_time.o"'
+### List of Objects: adding '"mystring.o"'
+### List of Objects: adding '"msg_list.o"'
+### List of Objects: adding '"my_list.o"'
+### List of Objects: adding '"printp.o"'
+### List of Objects: adding '"input_task.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "core_cm3.o" ".\startup_stm32f10x_hd.o" "croutine.o" "list.o" "queue.o" "tasks.o" "timers.o" "heap_2.o" "port.o" "misc.o" "stm32f10x_adc.o" "stm32f10x_bkp.o" "stm32f10x_can.o" "stm32f10x_cec.o" "stm32f10x_crc.o" "stm32f10x_dac.o" "stm32f10x_dbgmcu.o" "stm32f10x_dma.o" "stm32f10x_exti.o" "stm32f10x_flash.o" "stm32f10x_fsmc.o" "stm32f10x_gpio.o" "stm32f10x_i2c.o" "stm32f10x_iwdg.o" "stm32f10x_pwr.o" "stm32f10x_rcc.o" "stm32f10x_rtc.o" "stm32f10x_sdio.o" "stm32f10x_spi.o" "stm32f10x_tim.o" "stm32f10x_usart.o" "stm32f10x_wwdg.o" "main.o" "stm32f10x_it.o" "bsp.o" "delay.o" "g7185.o" "sys_time.o" "mystring.o" "msg_list.o" "my_list.o" "printp.o" "input_task.o" --strict --scatter "Air_FreeRTOS.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Air_FreeRTOS.map" -o Air_FreeRTOS.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'Air_FreeRTOS.axf'
+### ADS-LD Command File: 'Air_FreeRTOS.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'Air_FreeRTOS.lnp', Handle=0x0000050C
+### Writing '.lnp' file
+### ADS-LD Command file 'Air_FreeRTOS.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

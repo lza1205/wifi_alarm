@@ -1,0 +1,68 @@
+/*--------------------------------------------------------------------
+　　　/\~~~~~~~~~~~~~\　　　▓　　^*^　　　☆　　$$　 .☆ 
+　　./　\~~~▓~　 ~~~~\ ◆　　圣诞 .快乐　 *　 $◢◣$　 * 
+　　/ ^^ \ ══════\.◆　　　 *　*　　*　 $◢★◣$　 * 
+　..▎[]　▎田　田 ▎ |┃◆　 .　　　　　*　 $◢■■◣$　 * 
+　&&▎　　▎　　　 ▎'|'▎ @　　　　　　　* $◢■■■◣$ * 
+＃ ■■■■■■■■■■〓▄▃▂▁愿你圣诞快乐︸︸||︸︸ 
+
+
+				更新日志
+版本：1.0
+时间：2015.06.09
+作者：Faker
+
+--------------------------------------------------------------------*/
+
+
+test_uart STM32::RF::CODE::123456
+
+示意命令:
+
+
+root用户登录：
+	send 137d7825447f3b36 Command Root_Login Passwd 117900163e0019b4 Name 117900163e0019b4
+
+	说明：
+		name loop
+		passwd loop
+
+添加门磁：
+	send 137d7825447f3b36 Command Add_Door ID b043d1 Name Door1
+	send loop Command Add_Door ID 123456 Name Door1
+
+	说明：
+		添加 ID 为 864A2F 的门磁，并命名为 Door1
+
+删除门磁
+	send 137d7825447f3b36 Command Del_Door ID b043d1 Name Door1
+
+	说明：
+		删除 ID 为 864A2F 的门磁
+
+添加红外
+	send 137d7825447f3b36 Command Add_Infrared ID d18271 Name Red1
+	send loop Command Add_Infrared ID 000000 Name Red1
+
+删除红外
+	send 137d7825447f3b36 Command Del_Infrared ID d18271 Name Red1
+
+添加遥控器
+	send 137d7825447f3b36 Command Add_Remote ID 125af1 Name Ykq1
+	send loop Command Add_Infrared ID 000000 Name Red1
+
+删除遥控器
+	send 137d7825447f3b36 Command Del_Remote ID 125af1 Name Ykq2
+
+
+添加紧急联系人
+	send 117900163e0019b4 Command Add_Friend Name wxt Phone 12345678
+
+删除紧急联系人
+	send loop Command Del_Friend Name wxt Phone 12345678
+	
+	
+设置参数
+	send 137d7825447f3b36 Command Set System_State Arm Ringing_Time 20
+	
+	

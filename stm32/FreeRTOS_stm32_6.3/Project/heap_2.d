@@ -1,0 +1,11 @@
+.\Project\heap_2.o: FreeRTOS\portable\heap_2.c
+.\Project\heap_2.o: F:\DAN_PIAN_JI\ARM\mdk_4.54\ARM\RV31\Inc\stdlib.h
+.\Project\heap_2.o: .\FreeRTOS\include\FreeRTOS.h
+.\Project\heap_2.o: F:\DAN_PIAN_JI\ARM\mdk_4.54\ARM\RV31\Inc\stddef.h
+.\Project\heap_2.o: .\FreeRTOS\include\projdefs.h
+.\Project\heap_2.o: .\FreeRTOS\include\FreeRTOSConfig.h
+.\Project\heap_2.o: .\FreeRTOS\include\portable.h
+.\Project\heap_2.o: .\FreeRTOS\portable\portmacro.h
+.\Project\heap_2.o: .\FreeRTOS\include\mpu_wrappers.h
+.\Project\heap_2.o: .\FreeRTOS\include\task.h
+.\Project\heap_2.o: .\FreeRTOS\include\list.h

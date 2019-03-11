@@ -1,0 +1,12 @@
+.\Project\timers.o: FreeRTOS\timers.c
+.\Project\timers.o: .\FreeRTOS\include\FreeRTOS.h
+.\Project\timers.o: F:\DAN_PIAN_JI\ARM\mdk_4.54\ARM\RV31\Inc\stddef.h
+.\Project\timers.o: .\FreeRTOS\include\projdefs.h
+.\Project\timers.o: .\FreeRTOS\include\FreeRTOSConfig.h
+.\Project\timers.o: .\FreeRTOS\include\portable.h
+.\Project\timers.o: .\FreeRTOS\portable\portmacro.h
+.\Project\timers.o: .\FreeRTOS\include\mpu_wrappers.h
+.\Project\timers.o: .\FreeRTOS\include\task.h
+.\Project\timers.o: .\FreeRTOS\include\list.h
+.\Project\timers.o: .\FreeRTOS\include\queue.h
+.\Project\timers.o: .\FreeRTOS\include\timers.h

@@ -1,0 +1,1385 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+E:\产品（网络报警器）\代码\stm32\FreeRTOS_stm32_6.3\mdk\Air_FreeRTOS.uvproj
+Project File Date:  06/27/2015
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling input_task.c...
+..\task\input_task.c(22): error:  #513: a value of type "unsigned char *" cannot be assigned to an entity of type "unsigned char"
+..\task\input_task.c(23): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\task\input_task.c(32): error:  #513: a value of type "char *" cannot be assigned to an entity of type "unsigned char"
+..\task\input_task.c(42): error:  #513: a value of type "char *" cannot be assigned to an entity of type "unsigned char"
+..\task\input_task.c(50): warning:  #175-D: subscript out of range
+..\task\input_task.c(50): error:  #513: a value of type "char *" cannot be assigned to an entity of type "unsigned char"
+..\task\input_task.c(66): error:  #20: identifier "q" is undefined
+..\task\input_task.c(66): error:  #165: too few arguments in function call
+..\task\input_task.c(67): error:  #127: expected a statement
+Target not created
+Build target 'Target 1'
+compiling input_task.c...
+..\task\input_task.c(23): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\task\input_task.c(32): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "unsigned char *"
+..\task\input_task.c(42): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "unsigned char *"
+..\task\input_task.c(50): warning:  #175-D: subscript out of range
+..\task\input_task.c(50): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "unsigned char *"
+..\task\input_task.c(66): error:  #20: identifier "q" is undefined
+..\task\input_task.c(66): error:  #165: too few arguments in function call
+..\task\input_task.c(67): error:  #127: expected a statement
+Target not created
+Build target 'Target 1'
+compiling input_task.c...
+..\task\input_task.c(23): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\task\input_task.c(32): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "unsigned char *"
+..\task\input_task.c(42): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "unsigned char *"
+..\task\input_task.c(50): warning:  #175-D: subscript out of range
+..\task\input_task.c(50): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "unsigned char *"
+linking...
+Program Size: Code=22648 RO-data=175980 RW-data=228 ZI-data=20028  
+"..\out\Air_FreeRTOS.axf" - 0 Error(s), 5 Warning(s).
+Load "..\\out\\Air_FreeRTOS.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "E:\产品（网络报警器）\代码\stm32\FreeRTOS_stm32_6.3\mdk\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.50j, compiled Jun 26 2012 09:19:07
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 58001139 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.293V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+No Algorithm found for: 08020000H - 0802FFFFH
+No Algorithm found for: 08030000H - 080308C7H
+Partial Erase Done (areas with no algorithms skipped!)
+No Algorithm found for: 08020000H - 0802FFFFH
+No Algorithm found for: 08030000H - 080308C7H
+Partial Programming Done (areas with no algorithms skipped!)
+Partial Verify OK (areas with no algorithms skipped!)
+Build target 'Target 1'
+compiling main.c...
+compiling bsp.c...
+compiling delay.c...
+compiling sys_time.c...
+compiling sys_uart.c...
+compiling MyString.c...
+compiling msg_list.c...
+..\sys\msg_list.c(61): warning:  #174-D: expression has no effect
+compiling printp.c...
+compiling input_task.c...
+..\task\input_task.c(23): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\task\input_task.c(32): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "unsigned char *"
+..\task\input_task.c(42): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "unsigned char *"
+..\task\input_task.c(50): warning:  #175-D: subscript out of range
+..\task\input_task.c(50): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "unsigned char *"
+..\task\input_task.c(99): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\task\input_task.c(101): error:  #118: a void function may not return a value
+..\task\input_task.c(104): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\task\input_task.c(106): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\task\input_task.c(109): warning:  #175-D: subscript out of range
+..\task\input_task.c(111): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+compiling back_task.c...
+compiling sim900a.c...
+..\driver\sim900a\sim900a.c(209): warning:  #223-D: function "ff_convert" declared implicitly
+..\driver\sim900a\sim900a.c(253): warning:  #223-D: function "ff_convert" declared implicitly
+compiling ev1527.c...
+..\driver\ev1527\ev1527.c(314): warning:  #223-D: function "my_send_buf" declared implicitly
+..\driver\ev1527\ev1527.c(305): warning:  #177-D: variable "__cnt" was declared but never referenced
+Target not created
+Build target 'Target 1'
+compiling input_task.c...
+..\task\input_task.c(23): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\task\input_task.c(32): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "unsigned char *"
+..\task\input_task.c(42): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "unsigned char *"
+..\task\input_task.c(50): warning:  #175-D: subscript out of range
+..\task\input_task.c(50): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "unsigned char *"
+..\task\input_task.c(101): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\task\input_task.c(103): error:  #118: a void function may not return a value
+..\task\input_task.c(106): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\task\input_task.c(108): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\task\input_task.c(111): warning:  #175-D: subscript out of range
+..\task\input_task.c(113): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+Target not created
+Build target 'Target 1'
+compiling input_task.c...
+..\task\input_task.c(23): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\task\input_task.c(32): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "unsigned char *"
+..\task\input_task.c(42): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "unsigned char *"
+..\task\input_task.c(50): warning:  #175-D: subscript out of range
+..\task\input_task.c(50): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "unsigned char *"
+..\task\input_task.c(101): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\task\input_task.c(106): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\task\input_task.c(108): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\task\input_task.c(111): warning:  #175-D: subscript out of range
+..\task\input_task.c(113): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+linking...
+Program Size: Code=22996 RO-data=175980 RW-data=228 ZI-data=20028  
+"..\out\Air_FreeRTOS.axf" - 0 Error(s), 10 Warning(s).
+Load "..\\out\\Air_FreeRTOS.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "E:\产品（网络报警器）\代码\stm32\FreeRTOS_stm32_6.3\mdk\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.50j, compiled Jun 26 2012 09:19:07
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 58001139 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.293V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+No Algorithm found for: 08020000H - 0802FFFFH
+No Algorithm found for: 08030000H - 08030A23H
+Partial Erase Done (areas with no algorithms skipped!)
+No Algorithm found for: 08020000H - 0802FFFFH
+No Algorithm found for: 08030000H - 08030A23H
+Partial Programming Done (areas with no algorithms skipped!)
+Partial Verify OK (areas with no algorithms skipped!)
+Build target 'Target 1'
+compiling input_task.c...
+..\task\input_task.c(23): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\task\input_task.c(32): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "unsigned char *"
+..\task\input_task.c(42): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "unsigned char *"
+..\task\input_task.c(50): warning:  #175-D: subscript out of range
+..\task\input_task.c(50): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "unsigned char *"
+..\task\input_task.c(101): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\task\input_task.c(106): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\task\input_task.c(108): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\task\input_task.c(111): warning:  #175-D: subscript out of range
+..\task\input_task.c(113): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+linking...
+Program Size: Code=22996 RO-data=175980 RW-data=228 ZI-data=20028  
+"..\out\Air_FreeRTOS.axf" - 0 Error(s), 10 Warning(s).
+Load "..\\out\\Air_FreeRTOS.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "E:\产品（网络报警器）\代码\stm32\FreeRTOS_stm32_6.3\mdk\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.50j, compiled Jun 26 2012 09:19:07
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 58001139 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.293V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+No Algorithm found for: 08020000H - 0802FFFFH
+No Algorithm found for: 08030000H - 08030A23H
+Partial Erase Done (areas with no algorithms skipped!)
+No Algorithm found for: 08020000H - 0802FFFFH
+No Algorithm found for: 08030000H - 08030A23H
+Partial Programming Done (areas with no algorithms skipped!)
+Partial Verify OK (areas with no algorithms skipped!)
+Build target 'Target 1'
+compiling sys_uart.c...
+linking...
+Program Size: Code=22984 RO-data=175980 RW-data=228 ZI-data=20028  
+"..\out\Air_FreeRTOS.axf" - 0 Error(s), 0 Warning(s).
+Load "..\\out\\Air_FreeRTOS.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "E:\产品（网络报警器）\代码\stm32\FreeRTOS_stm32_6.3\mdk\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.50j, compiled Jun 26 2012 09:19:07
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 58001139 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.293V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+No Algorithm found for: 08020000H - 0802FFFFH
+No Algorithm found for: 08030000H - 08030A17H
+Partial Erase Done (areas with no algorithms skipped!)
+No Algorithm found for: 08020000H - 0802FFFFH
+No Algorithm found for: 08030000H - 08030A17H
+Partial Programming Done (areas with no algorithms skipped!)
+Partial Verify OK (areas with no algorithms skipped!)
+Build target 'Target 1'
+compiling input_task.c...
+..\task\input_task.c(23): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\task\input_task.c(32): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "unsigned char *"
+..\task\input_task.c(42): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "unsigned char *"
+..\task\input_task.c(50): warning:  #175-D: subscript out of range
+..\task\input_task.c(50): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "unsigned char *"
+..\task\input_task.c(108): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\task\input_task.c(113): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\task\input_task.c(115): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\task\input_task.c(118): warning:  #175-D: subscript out of range
+..\task\input_task.c(120): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+linking...
+Program Size: Code=23052 RO-data=176048 RW-data=228 ZI-data=20028  
+"..\out\Air_FreeRTOS.axf" - 0 Error(s), 10 Warning(s).
+Load "..\\out\\Air_FreeRTOS.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "E:\产品（网络报警器）\代码\stm32\FreeRTOS_stm32_6.3\mdk\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.50j, compiled Jun 26 2012 09:19:07
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 58001139 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.293V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+No Algorithm found for: 08020000H - 0802FFFFH
+No Algorithm found for: 08030000H - 08030A9FH
+Partial Erase Done (areas with no algorithms skipped!)
+No Algorithm found for: 08020000H - 0802FFFFH
+No Algorithm found for: 08030000H - 08030A9FH
+Partial Programming Done (areas with no algorithms skipped!)
+Partial Verify OK (areas with no algorithms skipped!)
+Build target 'Target 1'
+compiling input_task.c...
+..\task\input_task.c(23): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\task\input_task.c(32): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "unsigned char *"
+..\task\input_task.c(42): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "unsigned char *"
+..\task\input_task.c(50): warning:  #175-D: subscript out of range
+..\task\input_task.c(50): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "unsigned char *"
+..\task\input_task.c(114): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\task\input_task.c(119): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\task\input_task.c(121): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\task\input_task.c(124): warning:  #175-D: subscript out of range
+..\task\input_task.c(126): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+linking...
+Program Size: Code=23088 RO-data=176048 RW-data=228 ZI-data=20028  
+"..\out\Air_FreeRTOS.axf" - 0 Error(s), 10 Warning(s).
+Load "..\\out\\Air_FreeRTOS.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "E:\产品（网络报警器）\代码\stm32\FreeRTOS_stm32_6.3\mdk\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.50j, compiled Jun 26 2012 09:19:07
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 58001139 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.293V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+No Algorithm found for: 08020000H - 0802FFFFH
+No Algorithm found for: 08030000H - 08030AC3H
+Partial Erase Done (areas with no algorithms skipped!)
+No Algorithm found for: 08020000H - 0802FFFFH
+No Algorithm found for: 08030000H - 08030AC3H
+Partial Programming Done (areas with no algorithms skipped!)
+Partial Verify OK (areas with no algorithms skipped!)
+Build target 'Target 1'
+compiling input_task.c...
+..\task\input_task.c(23): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\task\input_task.c(32): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "unsigned char *"
+..\task\input_task.c(42): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "unsigned char *"
+..\task\input_task.c(50): warning:  #175-D: subscript out of range
+..\task\input_task.c(50): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "unsigned char *"
+..\task\input_task.c(114): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\task\input_task.c(119): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\task\input_task.c(121): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\task\input_task.c(124): warning:  #175-D: subscript out of range
+..\task\input_task.c(126): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+linking...
+Program Size: Code=23088 RO-data=176048 RW-data=228 ZI-data=20028  
+"..\out\Air_FreeRTOS.axf" - 0 Error(s), 10 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=23088 RO-data=176048 RW-data=228 ZI-data=20028  
+"..\out\Air_FreeRTOS.axf" - 0 Error(s), 0 Warning(s).
+Load "..\\out\\Air_FreeRTOS.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "E:\产品（网络报警器）\代码\stm32\FreeRTOS_stm32_6.3\mdk\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.50j, compiled Jun 26 2012 09:19:07
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 58001139 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.293V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+No Algorithm found for: 08020000H - 0802FFFFH
+No Algorithm found for: 08030000H - 08030AC3H
+Partial Erase Done (areas with no algorithms skipped!)
+No Algorithm found for: 08020000H - 0802FFFFH
+No Algorithm found for: 08030000H - 08030AC3H
+Partial Programming Done (areas with no algorithms skipped!)
+Partial Verify OK (areas with no algorithms skipped!)
+Build target 'Target 1'
+compiling main.c...
+..\User\main.c(82): error:  #20: identifier "gsm_task" is undefined
+compiling bsp.c...
+compiling delay.c...
+compiling sys_time.c...
+compiling sys_uart.c...
+compiling MyString.c...
+compiling msg_list.c...
+..\sys\msg_list.c(61): warning:  #174-D: expression has no effect
+compiling printp.c...
+compiling input_task.c...
+..\task\input_task.c(23): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\task\input_task.c(32): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "unsigned char *"
+..\task\input_task.c(42): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "unsigned char *"
+..\task\input_task.c(50): warning:  #175-D: subscript out of range
+..\task\input_task.c(50): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "unsigned char *"
+..\task\input_task.c(69): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\task\input_task.c(74): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\task\input_task.c(76): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\task\input_task.c(80): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\task\input_task.c(80): warning:  #175-D: subscript out of range
+..\task\input_task.c(80): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\task\input_task.c(83): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+Project build/rebuild aborted.
+Target not created
+Build target 'Target 1'
+compiling main.c...
+compiling bsp.c...
+compiling delay.c...
+compiling sys_time.c...
+compiling sys_uart.c...
+compiling MyString.c...
+compiling msg_list.c...
+..\sys\msg_list.c(61): warning:  #174-D: expression has no effect
+compiling printp.c...
+compiling input_task.c...
+..\task\input_task.c(23): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\task\input_task.c(32): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "unsigned char *"
+..\task\input_task.c(42): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "unsigned char *"
+..\task\input_task.c(50): warning:  #175-D: subscript out of range
+..\task\input_task.c(50): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "unsigned char *"
+..\task\input_task.c(69): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\task\input_task.c(74): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\task\input_task.c(76): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\task\input_task.c(80): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\task\input_task.c(80): warning:  #175-D: subscript out of range
+..\task\input_task.c(80): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\task\input_task.c(83): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+compiling back_task.c...
+compiling sim900a.c...
+..\driver\sim900a\sim900a.c(209): warning:  #223-D: function "ff_convert" declared implicitly
+..\driver\sim900a\sim900a.c(253): warning:  #223-D: function "ff_convert" declared implicitly
+compiling ev1527.c...
+..\driver\ev1527\ev1527.c(314): warning:  #223-D: function "my_send_buf" declared implicitly
+..\driver\ev1527\ev1527.c(305): warning:  #177-D: variable "__cnt" was declared but never referenced
+linking...
+..\out\Air_FreeRTOS.axf: Error: L6218E: Undefined symbol gsm_task (referred from main.o).
+Target not created
+Build target 'Target 1'
+compiling gsm_task.c...
+..\task\gsm_task.c(23): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+linking...
+Program Size: Code=23252 RO-data=176048 RW-data=228 ZI-data=20044  
+"..\out\Air_FreeRTOS.axf" - 0 Error(s), 1 Warning(s).
+Load "..\\out\\Air_FreeRTOS.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "E:\产品（网络报警器）\代码\stm32\FreeRTOS_stm32_6.3\mdk\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.50j, compiled Jun 26 2012 09:19:07
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 58001139 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.293V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+No Algorithm found for: 08020000H - 0802FFFFH
+No Algorithm found for: 08030000H - 08030B67H
+Partial Erase Done (areas with no algorithms skipped!)
+No Algorithm found for: 08020000H - 0802FFFFH
+No Algorithm found for: 08030000H - 08030B67H
+Partial Programming Done (areas with no algorithms skipped!)
+Partial Verify OK (areas with no algorithms skipped!)
+Build target 'Target 1'
+linking...
+Program Size: Code=23252 RO-data=176048 RW-data=228 ZI-data=20044  
+"..\out\Air_FreeRTOS.axf" - 0 Error(s), 0 Warning(s).
+Load "..\\out\\Air_FreeRTOS.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "E:\产品（网络报警器）\代码\stm32\FreeRTOS_stm32_6.3\mdk\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.50j, compiled Jun 26 2012 09:19:07
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 58001139 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.293V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+No Algorithm found for: 08020000H - 0802FFFFH
+No Algorithm found for: 08030000H - 08030B67H
+Partial Erase Done (areas with no algorithms skipped!)
+No Algorithm found for: 08020000H - 0802FFFFH
+No Algorithm found for: 08030000H - 08030B67H
+Partial Programming Done (areas with no algorithms skipped!)
+Partial Verify OK (areas with no algorithms skipped!)
+Build target 'Target 1'
+compiling gsm_task.c...
+..\task\gsm_task.c(24): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+linking...
+Program Size: Code=23280 RO-data=176048 RW-data=228 ZI-data=20044  
+"..\out\Air_FreeRTOS.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=23280 RO-data=176048 RW-data=228 ZI-data=20044  
+"..\out\Air_FreeRTOS.axf" - 0 Error(s), 0 Warning(s).
+Load "..\\out\\Air_FreeRTOS.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "E:\产品（网络报警器）\代码\stm32\FreeRTOS_stm32_6.3\mdk\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.50j, compiled Jun 26 2012 09:19:07
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 58001139 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.293V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+No Algorithm found for: 08020000H - 0802FFFFH
+No Algorithm found for: 08030000H - 08030B83H
+Partial Erase Done (areas with no algorithms skipped!)
+No Algorithm found for: 08020000H - 0802FFFFH
+No Algorithm found for: 08030000H - 08030B83H
+Partial Programming Done (areas with no algorithms skipped!)
+Partial Verify OK (areas with no algorithms skipped!)
+Build target 'Target 1'
+compiling gsm_task.c...
+..\task\gsm_task.c(24): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+linking...
+Program Size: Code=23280 RO-data=176048 RW-data=228 ZI-data=20044  
+"..\out\Air_FreeRTOS.axf" - 0 Error(s), 1 Warning(s).
+Load "..\\out\\Air_FreeRTOS.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "E:\产品（网络报警器）\代码\stm32\FreeRTOS_stm32_6.3\mdk\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.50j, compiled Jun 26 2012 09:19:07
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 58001139 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.287V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+No Algorithm found for: 08020000H - 0802FFFFH
+No Algorithm found for: 08030000H - 08030B83H
+Partial Erase Done (areas with no algorithms skipped!)
+No Algorithm found for: 08020000H - 0802FFFFH
+No Algorithm found for: 08030000H - 08030B83H
+Partial Programming Done (areas with no algorithms skipped!)
+Partial Verify OK (areas with no algorithms skipped!)
+Build target 'Target 1'
+compiling back_task.c...
+compiling gsm_task.c...
+..\task\gsm_task.c(11): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+linking...
+Program Size: Code=23380 RO-data=175980 RW-data=228 ZI-data=20044  
+"..\out\Air_FreeRTOS.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=23380 RO-data=175980 RW-data=228 ZI-data=20044  
+"..\out\Air_FreeRTOS.axf" - 0 Error(s), 0 Warning(s).
+Load "..\\out\\Air_FreeRTOS.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "E:\产品（网络报警器）\代码\stm32\FreeRTOS_stm32_6.3\mdk\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.50j, compiled Jun 26 2012 09:19:07
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 58001139 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.293V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+No Algorithm found for: 08020000H - 0802FFFFH
+No Algorithm found for: 08030000H - 08030BA3H
+Partial Erase Done (areas with no algorithms skipped!)
+No Algorithm found for: 08020000H - 0802FFFFH
+No Algorithm found for: 08030000H - 08030BA3H
+Partial Programming Done (areas with no algorithms skipped!)
+Partial Verify OK (areas with no algorithms skipped!)
+Build target 'Target 1'
+linking...
+Program Size: Code=23380 RO-data=175980 RW-data=228 ZI-data=20044  
+"..\out\Air_FreeRTOS.axf" - 0 Error(s), 0 Warning(s).
+Load "..\\out\\Air_FreeRTOS.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "E:\产品（网络报警器）\代码\stm32\FreeRTOS_stm32_6.3\mdk\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.50j, compiled Jun 26 2012 09:19:07
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 58001139 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.293V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+No Algorithm found for: 08020000H - 0802FFFFH
+No Algorithm found for: 08030000H - 08030BA3H
+Partial Erase Done (areas with no algorithms skipped!)
+No Algorithm found for: 08020000H - 0802FFFFH
+No Algorithm found for: 08030000H - 08030BA3H
+Partial Programming Done (areas with no algorithms skipped!)
+Partial Verify OK (areas with no algorithms skipped!)
+Build target 'Target 1'
+compiling input_task.c...
+..\task\input_task.c(23): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\task\input_task.c(32): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "unsigned char *"
+..\task\input_task.c(42): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "unsigned char *"
+..\task\input_task.c(50): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "unsigned char *"
+..\task\input_task.c(69): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\task\input_task.c(74): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\task\input_task.c(76): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\task\input_task.c(80): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\task\input_task.c(80): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\task\input_task.c(83): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+linking...
+Program Size: Code=23380 RO-data=175980 RW-data=228 ZI-data=20052  
+"..\out\Air_FreeRTOS.axf" - 0 Error(s), 10 Warning(s).
+Load "..\\out\\Air_FreeRTOS.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "E:\产品（网络报警器）\代码\stm32\FreeRTOS_stm32_6.3\mdk\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.50j, compiled Jun 26 2012 09:19:07
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 58001139 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.300V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+No Algorithm found for: 08020000H - 0802FFFFH
+No Algorithm found for: 08030000H - 08030BA3H
+Partial Erase Done (areas with no algorithms skipped!)
+No Algorithm found for: 08020000H - 0802FFFFH
+No Algorithm found for: 08030000H - 08030BA3H
+Partial Programming Done (areas with no algorithms skipped!)
+Partial Verify OK (areas with no algorithms skipped!)
+Build target 'Target 1'
+compiling input_task.c...
+..\task\input_task.c(23): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\task\input_task.c(32): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "unsigned char *"
+..\task\input_task.c(42): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "unsigned char *"
+..\task\input_task.c(50): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "unsigned char *"
+..\task\input_task.c(69): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\task\input_task.c(74): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\task\input_task.c(76): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\task\input_task.c(80): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+..\task\input_task.c(80): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
+..\task\input_task.c(83): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+linking...
+Program Size: Code=23452 RO-data=175980 RW-data=228 ZI-data=20052  
+"..\out\Air_FreeRTOS.axf" - 0 Error(s), 10 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=23452 RO-data=175980 RW-data=228 ZI-data=20052  
+"..\out\Air_FreeRTOS.axf" - 0 Error(s), 0 Warning(s).
+Load "..\\out\\Air_FreeRTOS.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "E:\产品（网络报警器）\代码\stm32\FreeRTOS_stm32_6.3\mdk\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.50j, compiled Jun 26 2012 09:19:07
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 58001139 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.293V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+No Algorithm found for: 08020000H - 0802FFFFH
+No Algorithm found for: 08030000H - 08030BEBH
+Partial Erase Done (areas with no algorithms skipped!)
+No Algorithm found for: 08020000H - 0802FFFFH
+No Algorithm found for: 08030000H - 08030BEBH
+Partial Programming Done (areas with no algorithms skipped!)
+Partial Verify OK (areas with no algorithms skipped!)
+Build target 'Target 1'
+linking...
+Program Size: Code=23452 RO-data=175980 RW-data=228 ZI-data=20052  
+"..\out\Air_FreeRTOS.axf" - 0 Error(s), 0 Warning(s).
+Load "..\\out\\Air_FreeRTOS.AXF" 
+Build target 'Target 1'
+compiling gsm_task.c...
+..\task\gsm_task.c(11): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+linking...
+Program Size: Code=23476 RO-data=175980 RW-data=228 ZI-data=20052  
+"..\out\Air_FreeRTOS.axf" - 0 Error(s), 1 Warning(s).
+Load "..\\out\\Air_FreeRTOS.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "E:\产品（网络报警器）\代码\stm32\FreeRTOS_stm32_6.3\mdk\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.50j, compiled Jun 26 2012 09:19:07
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 58001139 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.293V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+No Algorithm found for: 08020000H - 0802FFFFH
+No Algorithm found for: 08030000H - 08030C03H
+Partial Erase Done (areas with no algorithms skipped!)
+No Algorithm found for: 08020000H - 0802FFFFH
+No Algorithm found for: 08030000H - 08030C03H
+Partial Programming Done (areas with no algorithms skipped!)
+Partial Verify OK (areas with no algorithms skipped!)
+Build target 'Target 1'
+compiling gsm_task.c...
+..\task\gsm_task.c(11): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+..\task\gsm_task.c(92): error:  #65: expected a ";"
+..\task\gsm_task.c(105): warning:  #12-D: parsing restarts here after previous syntax error
+..\task\gsm_task.c(79): warning:  #177-D: variable "ret" was declared but never referenced
+..\task\gsm_task.c(80): warning:  #177-D: variable "msg" was declared but never referenced
+Target not created
+Build target 'Target 1'
+compiling gsm_task.c...
+..\task\gsm_task.c(11): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+linking...
+Program Size: Code=23512 RO-data=175980 RW-data=228 ZI-data=20052  
+"..\out\Air_FreeRTOS.axf" - 0 Error(s), 1 Warning(s).
+Load "..\\out\\Air_FreeRTOS.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "E:\产品（网络报警器）\代码\stm32\FreeRTOS_stm32_6.3\mdk\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.50j, compiled Jun 26 2012 09:19:07
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 58001139 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.293V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+No Algorithm found for: 08020000H - 0802FFFFH
+No Algorithm found for: 08030000H - 08030C27H
+Partial Erase Done (areas with no algorithms skipped!)
+No Algorithm found for: 08020000H - 0802FFFFH
+No Algorithm found for: 08030000H - 08030C27H
+Partial Programming Done (areas with no algorithms skipped!)
+Partial Verify OK (areas with no algorithms skipped!)
+Build target 'Target 1'
+compiling gsm_task.c...
+..\task\gsm_task.c(11): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+linking...
+Program Size: Code=23472 RO-data=175980 RW-data=228 ZI-data=20052  
+"..\out\Air_FreeRTOS.axf" - 0 Error(s), 1 Warning(s).
+Load "..\\out\\Air_FreeRTOS.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "E:\产品（网络报警器）\代码\stm32\FreeRTOS_stm32_6.3\mdk\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.50j, compiled Jun 26 2012 09:19:07
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 58001139 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.293V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+No Algorithm found for: 08020000H - 0802FFFFH
+No Algorithm found for: 08030000H - 08030BFFH
+Partial Erase Done (areas with no algorithms skipped!)
+No Algorithm found for: 08020000H - 0802FFFFH
+No Algorithm found for: 08030000H - 08030BFFH
+Partial Programming Done (areas with no algorithms skipped!)
+Partial Verify OK (areas with no algorithms skipped!)
+Build target 'Target 1'
+compiling sys_uart.c...
+linking...
+Program Size: Code=23484 RO-data=175980 RW-data=228 ZI-data=20052  
+"..\out\Air_FreeRTOS.axf" - 0 Error(s), 0 Warning(s).
+Load "..\\out\\Air_FreeRTOS.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "E:\产品（网络报警器）\代码\stm32\FreeRTOS_stm32_6.3\mdk\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.50j, compiled Jun 26 2012 09:19:07
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 58001139 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.293V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+No Algorithm found for: 08020000H - 0802FFFFH
+No Algorithm found for: 08030000H - 08030C0BH
+Partial Erase Done (areas with no algorithms skipped!)
+No Algorithm found for: 08020000H - 0802FFFFH
+No Algorithm found for: 08030000H - 08030C0BH
+Partial Programming Done (areas with no algorithms skipped!)
+Partial Verify OK (areas with no algorithms skipped!)
+Build target 'Target 1'
+linking...
+Program Size: Code=23484 RO-data=175980 RW-data=228 ZI-data=20052  
+"..\out\Air_FreeRTOS.axf" - 0 Error(s), 0 Warning(s).
+Load "..\\out\\Air_FreeRTOS.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "E:\产品（网络报警器）\代码\stm32\FreeRTOS_stm32_6.3\mdk\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.50j, compiled Jun 26 2012 09:19:07
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 58001139 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.293V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+No Algorithm found for: 08020000H - 0802FFFFH
+No Algorithm found for: 08030000H - 08030C0BH
+Partial Erase Done (areas with no algorithms skipped!)
+No Algorithm found for: 08020000H - 0802FFFFH
+No Algorithm found for: 08030000H - 08030C0BH
+Partial Programming Done (areas with no algorithms skipped!)
+Partial Verify OK (areas with no algorithms skipped!)
+Build target 'Target 1'
+compiling gsm_task.c...
+..\task\gsm_task.c(11): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+linking...
+Program Size: Code=23492 RO-data=175980 RW-data=228 ZI-data=20052  
+"..\out\Air_FreeRTOS.axf" - 0 Error(s), 1 Warning(s).
+Load "..\\out\\Air_FreeRTOS.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "E:\产品（网络报警器）\代码\stm32\FreeRTOS_stm32_6.3\mdk\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.50j, compiled Jun 26 2012 09:19:07
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 58001139 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.293V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+No Algorithm found for: 08020000H - 0802FFFFH
+No Algorithm found for: 08030000H - 08030C13H
+Partial Erase Done (areas with no algorithms skipped!)
+No Algorithm found for: 08020000H - 0802FFFFH
+No Algorithm found for: 08030000H - 08030C13H
+Partial Programming Done (areas with no algorithms skipped!)
+Partial Verify OK (areas with no algorithms skipped!)
+Build target 'Target 1'
+linking...
+Program Size: Code=23492 RO-data=175980 RW-data=228 ZI-data=20052  
+"..\out\Air_FreeRTOS.axf" - 0 Error(s), 0 Warning(s).
+Load "..\\out\\Air_FreeRTOS.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "E:\产品（网络报警器）\代码\stm32\FreeRTOS_stm32_6.3\mdk\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.50j, compiled Jun 26 2012 09:19:07
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 58001139 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.293V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+No Algorithm found for: 08020000H - 0802FFFFH
+No Algorithm found for: 08030000H - 08030C13H
+Partial Erase Done (areas with no algorithms skipped!)
+No Algorithm found for: 08020000H - 0802FFFFH
+No Algorithm found for: 08030000H - 08030C13H
+Partial Programming Done (areas with no algorithms skipped!)
+Partial Verify OK (areas with no algorithms skipped!)
+Build target 'Target 1'
+compiling sys_uart.c...
+compiling input_task.c...
+..\task\input_task.c(23): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\task\input_task.c(34): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "unsigned char *"
+..\task\input_task.c(46): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "unsigned char *"
+..\task\input_task.c(56): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "unsigned char *"
+..\task\input_task.c(75): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\task\input_task.c(80): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\task\input_task.c(82): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+..\task\input_task.c(86): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+..\task\input_task.c(86): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
+..\task\input_task.c(89): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+linking...
+Program Size: Code=23504 RO-data=175980 RW-data=228 ZI-data=20052  
+"..\out\Air_FreeRTOS.axf" - 0 Error(s), 10 Warning(s).
+Load "..\\out\\Air_FreeRTOS.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "E:\产品（网络报警器）\代码\stm32\FreeRTOS_stm32_6.3\mdk\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.50j, compiled Jun 26 2012 09:19:07
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 58001139 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.293V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+No Algorithm found for: 08020000H - 0802FFFFH
+No Algorithm found for: 08030000H - 08030C1FH
+Partial Erase Done (areas with no algorithms skipped!)
+No Algorithm found for: 08020000H - 0802FFFFH
+No Algorithm found for: 08030000H - 08030C1FH
+Partial Programming Done (areas with no algorithms skipped!)
+Partial Verify OK (areas with no algorithms skipped!)
+Build target 'Target 1'
+compiling ev1527.c...
+..\driver\ev1527\ev1527.c(314): warning:  #223-D: function "my_send_buf" declared implicitly
+..\driver\ev1527\ev1527.c(305): warning:  #177-D: variable "__cnt" was declared but never referenced
+linking...
+Program Size: Code=23492 RO-data=175980 RW-data=228 ZI-data=20052  
+"..\out\Air_FreeRTOS.axf" - 0 Error(s), 2 Warning(s).
+Load "..\\out\\Air_FreeRTOS.AXF" 
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+Set JLink Project File to "E:\产品（网络报警器）\代码\stm32\FreeRTOS_stm32_6.3\mdk\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.50j, compiled Jun 26 2012 09:19:07
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 58001139 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.293V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+No Algorithm found for: 08020000H - 0802FFFFH
+No Algorithm found for: 08030000H - 08030C13H
+Partial Erase Done (areas with no algorithms skipped!)
+No Algorithm found for: 08020000H - 0802FFFFH
+No Algorithm found for: 08030000H - 08030C13H
+Partial Programming Done (areas with no algorithms skipped!)
+Partial Verify OK (areas with no algorithms skipped!)

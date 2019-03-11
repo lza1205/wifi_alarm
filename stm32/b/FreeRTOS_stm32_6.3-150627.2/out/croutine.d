@@ -1,0 +1,11 @@
+..\out\croutine.o: ..\FreeRTOS\croutine.c
+..\out\croutine.o: ..\FreeRTOS\include\FreeRTOS.h
+..\out\croutine.o: F:\DAN_PIAN_JI\ARM\mdk_4.54\ARM\RV31\Inc\stddef.h
+..\out\croutine.o: ..\FreeRTOS\include\projdefs.h
+..\out\croutine.o: ..\FreeRTOS\include\FreeRTOSConfig.h
+..\out\croutine.o: ..\FreeRTOS\include\portable.h
+..\out\croutine.o: ..\FreeRTOS\portable\portmacro.h
+..\out\croutine.o: ..\FreeRTOS\include\mpu_wrappers.h
+..\out\croutine.o: ..\FreeRTOS\include\task.h
+..\out\croutine.o: ..\FreeRTOS\include\list.h
+..\out\croutine.o: ..\FreeRTOS\include\croutine.h
